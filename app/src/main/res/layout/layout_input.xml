@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@drawable/box_top">
+
+        <Button
+            android:id="@+id/input_buttonBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+
+            android:background="@drawable/back"
+            android:contentDescription="@string/todo"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/tital_input"
+            android:textColor="@color/grey_30"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/input_buttonExplain"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+
+            android:background="@drawable/explain"
+            android:contentDescription="@string/todo"
+            android:layout_marginEnd="20dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="ScrollViewCount">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+
+
+            >
+
+            <View
+                android:id="@+id/input_view"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/input_subject_one"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:id="@+id/input_subject_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:autofillHints="@string/todo"
+                android:background="@drawable/et"
+                android:gravity="center"
+                android:hint="@string/input_class"
+                android:inputType="text"
+                android:maxLength="10"
+                android:selectAllOnFocus="false"
+                android:textColor="@color/purple_500"
+                android:textSize="24sp"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/input_score_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/input_subject_one"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:layout_toStartOf="@id/input_view"
+                android:autofillHints="@string/todo"
+                android:background="@drawable/et"
+                android:gravity="center"
+                android:hint="@string/input_score_total"
+                android:inputType="numberDecimal"
+                android:maxLength="4"
+                android:selectAllOnFocus="false"
+                android:textColor="@color/grey_20"
+                android:textSize="24sp"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/input_sco_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/input_subject_one"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/input_view"
+                android:autofillHints="@string/todo"
+                android:background="@drawable/et"
+                android:gravity="center"
+                android:hint="@string/input_score_your"
+                android:inputType="number"
+                android:maxLength="3"
+                android:selectAllOnFocus="false"
+                android:textColor="@color/grey_20"
+                android:textSize="24sp"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/input_subject_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/input_score_one"
+                android:layout_marginTop="24dp"
+                android:autofillHints="@string/todo"
+                android:background="@drawable/et"
+                android:gravity="center"
+                android:hint="@string/input_class"
+                android:inputType="text"
+                android:maxLength="10"
+                android:selectAllOnFocus="false"
+                android:textColor="@color/purple_500"
+                android:textSize="24sp"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/input_score_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/input_subject_two"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:layout_toStartOf="@id/input_view"
+                android:autofillHints="@string/todo"
+                android:background="@drawable/et"
+                android:gravity="center"
+                android:hint="@string/input_score_total"
+                android:inputType="numberDecimal"
+                android:maxLength="4"
+                android:selectAllOnFocus="false"
+                android:textColor="@color/grey_20"
+                android:textSize="24sp"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/input_sco_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/input_subject_two"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/input_view"
+                android:autofillHints="@string/todo"
+                android:background="@drawable/et"
+                android:gravity="center"
+                android:hint="@string/input_score_your"
+                android:inputType="number"
+                android:maxLength="3"
+                android:selectAllOnFocus="false"
+                android:textColor="@color/grey_20"
+                android:textSize="24sp"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/input_subject_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/input_score_two"
+                android:layout_marginTop="24dp"
+                android:autofillHints="@string/todo"
+                android:background="@drawable/et"
+                android:gravity="center"
+                android:hint="@string/input_class"
+                android:inputType="text"
+                android:maxLength="10"
+                android:selectAllOnFocus="false"
+                android:textColor="@color/purple_500"
+                android:textSize="24sp"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/input_score_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/input_subject_three"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:layout_toStartOf="@id/input_view"
+                android:autofillHints="@string/todo"
+                android:background="@drawable/et"
+                android:gravity="center"
+                android:hint="@string/input_score_total"
+                android:inputType="numberDecimal"
+                android:maxLength="4"
+                android:selectAllOnFocus="false"
+                android:textColor="@color/grey_20"
+                android:textSize="24sp"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/input_sco_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/input_subject_three"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/input_view"
+                android:autofillHints="@string/todo"
+                android:background="@drawable/et"
+                android:gravity="center"
+                android:hint="@string/input_score_your"
+                android:inputType="number"
+                android:maxLength="3"
+                android:selectAllOnFocus="false"
+                android:textColor="@color/grey_20"
+                android:textSize="24sp"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/input_subject_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/input_score_three"
+                android:layout_marginTop="24dp"
+                android:autofillHints="@string/todo"
+                android:background="@drawable/et"
+                android:gravity="center"
+                android:hint="@string/input_class"
+                android:inputType="text"
+                android:maxLength="10"
+                android:selectAllOnFocus="false"
+                android:textColor="@color/purple_500"
+                android:textSize="24sp"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/input_score_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/input_subject_four"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:layout_toStartOf="@id/input_view"
+                android:autofillHints="@string/todo"
+                android:background="@drawable/et"
+                android:gravity="center"
+                android:hint="@string/input_score_total"
+                android:inputType="numberDecimal"
+                android:maxLength="4"
+                android:selectAllOnFocus="false"
+                android:textColor="@color/grey_20"
+                android:textSize="24sp"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/input_sco_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/input_subject_four"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/input_view"
+                android:autofillHints="@string/todo"
+                android:background="@drawable/et"
+                android:gravity="center"
+                android:hint="@string/input_score_your"
+                android:inputType="number"
+                android:maxLength="3"
+                android:selectAllOnFocus="false"
+                android:textColor="@color/grey_20"
+                android:textSize="24sp"
+                tools:ignore="LabelFor" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <Button
+            android:id="@+id/input_buttonEnter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/button_one"
+            android:text="@string/enter_ok"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+        </RelativeLayout>
+</LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

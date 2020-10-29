@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">张凯</string>
+    <string name="tital_input">成绩输入</string>
+    <string name="input_class">请输入学科</string>
+    <string name="input_score_total">学分</string>
+    <string name="input_score_your">成绩</string>
+    <string name="result_tital">成绩评估</string>
+    <string name="reporter_tital">成绩报告</string>
+    <string name="todo">TODO</string>
+    <string name="button_start">Start</string>
+    <string name="welcome">Welcome</string>
+    <string name="enter_ok">OK</string>
+    <string name="txt_one">绩点 : </string>
+    <string name="txt_two">总学分 :</string>
+    <string name="txt_three">稳定性</string>
+    <string name="txt_four">综合评级</string>
+    <string name="txt_five">成绩：</string>
+    <string name="enter_view_report">查看成绩报告</string>
+    <string name="tips">Tips :</string>
+</resources>
