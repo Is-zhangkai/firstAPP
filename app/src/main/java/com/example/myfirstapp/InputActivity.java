@@ -61,7 +61,7 @@ public class InputActivity extends AppCompatActivity {
             public void onClick(View v) {
                 AlertDialog textTips = new AlertDialog.Builder(InputActivity.this)
                         .setTitle("Tips:")
-                        .setMessage("1.目前学科未精确判断，限定输入格式为2—9个汉字+0或1个数字1-4，请用户自觉输入。\n" +
+                        .setMessage("1.学科限定输入格式为2—9个汉字+0或1个数字1-4，请用户自觉输入。\n" +
                                 "2.学分输入限定为小于等于10，允许输入两位小数。\n" +
                                 "3.成绩限定输入100及以内非负整数。")
                         .create();

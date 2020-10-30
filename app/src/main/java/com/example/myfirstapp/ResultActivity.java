@@ -16,7 +16,7 @@ public class ResultActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_result);
         Button button_back=findViewById(R.id.result_buttonBack);
-        Button button_explain=findViewById(R.id.result_buttonExplain);
+
         TextView textView_assess0=findViewById(R.id.result_textTips0);
         TextView textView_assess1=findViewById(R.id.result_textTips1);
         TextView textView_assess2=findViewById(R.id.result_textTips2);
@@ -39,15 +39,6 @@ public class ResultActivity extends AppCompatActivity {
                 finish();
             }
         });
-        button_explain.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                AlertDialog textTips = new AlertDialog.Builder(ResultActivity.this)
-                        .setTitle("Thanks:")
-                        .setMessage("感谢您使用此应用！\n")
-                        .create();
-                textTips.show();
-            }
-        });
+
     }
 }

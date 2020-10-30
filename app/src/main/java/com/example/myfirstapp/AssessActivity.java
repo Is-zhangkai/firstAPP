@@ -123,10 +123,11 @@ public class AssessActivity extends AppCompatActivity {
         String level2=assess(score2);
         String level3=assess(score3);
         String level4=assess(score4);
+        double score_averagecore=(score1+score2+score3+score4)/4;
 
-        double variance=(((averagescore-score1)*(averagescore-score1))+
-                ((averagescore-score1)*(averagescore-score1))+((averagescore-score1)*(averagescore-score1))
-                +((averagescore-score1)*(averagescore-score1)))/4;
+        double variance=(((score_averagecore-score1)*(score_averagecore-score1))+
+                ((score_averagecore-score2)*(score_averagecore-score2))+((score_averagecore-score3)*(score_averagecore-score3))
+                +((score_averagecore-score4)*(score_averagecore-score4)))/4;
         String stability= stability(variance);
         textView_stability.setText(stability);
 
@@ -186,7 +187,8 @@ button_explain.setOnClickListener(new View.OnClickListener() {
                 .setTitle("Tips:")
                 .setMessage("1.顶部圆框内数据为您的加权平均分。\n" +
                         "2.综合评级由您的加权平均分转换获得。\n" +
-                        "3.以上数据均由您输入的数据计算转化获得，如有疑问请联系开发人员。\n")
+                        "3.稳定性由您的成绩方差分析获得。" +
+                        "4.学分绩点与评级均由您输入的成绩转换获得。\n")
                 .create();
         textTips.show();
 

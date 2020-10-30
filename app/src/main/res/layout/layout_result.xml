@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:orientation="horizontal"
@@ -18,22 +18,14 @@
             android:background="@drawable/back"
             android:contentDescription="@string/todo" />
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:gravity="center_horizontal|center_vertical"
             android:text="@string/reporter_tital"
             android:textColor="@color/grey_30"
             android:textSize="32sp" />
-        <Button
-            android:id="@+id/result_buttonExplain"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
 
-            android:background="@drawable/explain"
-            android:contentDescription="@string/todo"
-            android:layout_marginEnd="20dp"/>
-    </LinearLayout>
+    </RelativeLayout>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
