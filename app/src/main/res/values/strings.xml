@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">张凯</string>
+    <string name="app_name">成绩分析</string>
     <string name="tital_input">成绩输入</string>
     <string name="input_class">请输入学科</string>
     <string name="input_score_total">学分</string>

@@ -102,10 +102,12 @@ public class InputActivity extends AppCompatActivity {
                             String subject4 = et_subject4.getText().toString();
 
                             String regex_subject = "[\\u4e00-\\u9fa5]{2,9}[1234]?";
+
                             boolean isMached1 = Pattern.matches(regex_subject, subject1);
                             boolean isMached2 = Pattern.matches(regex_subject, subject2);
                             boolean isMached3 = Pattern.matches(regex_subject, subject3);
                             boolean isMached4 = Pattern.matches(regex_subject, subject4);
+
                             if ((isMached1) && (isMached2) && (isMached3) && (isMached4)) {
                                 double gradePoint1 = scorelevel(score1);
                                 double gradePoint2 = scorelevel(score2);
