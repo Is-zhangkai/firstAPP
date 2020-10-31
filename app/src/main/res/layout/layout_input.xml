@@ -13,26 +13,26 @@
 
         <Button
             android:id="@+id/input_buttonBack"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
 
             android:background="@drawable/back"
             android:contentDescription="@string/todo"
             android:layout_marginStart="20dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal|center_vertical"
             android:text="@string/tital_input"
             android:textColor="@color/grey_30"
-            android:textSize="32sp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/input_buttonExplain"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
 
             android:background="@drawable/explain"
             android:contentDescription="@string/todo"
@@ -76,7 +76,7 @@
                 android:maxLength="10"
                 android:selectAllOnFocus="false"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 tools:ignore="LabelFor" />
 
             <EditText
@@ -95,7 +95,7 @@
                 android:maxLength="4"
                 android:selectAllOnFocus="false"
                 android:textColor="@color/grey_20"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 tools:ignore="LabelFor" />
 
             <EditText
@@ -115,7 +115,7 @@
                 android:maxLength="3"
                 android:selectAllOnFocus="false"
                 android:textColor="@color/grey_20"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 tools:ignore="LabelFor" />
 
             <EditText
@@ -132,7 +132,7 @@
                 android:maxLength="10"
                 android:selectAllOnFocus="false"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 tools:ignore="LabelFor" />
 
             <EditText
@@ -151,7 +151,7 @@
                 android:maxLength="4"
                 android:selectAllOnFocus="false"
                 android:textColor="@color/grey_20"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 tools:ignore="LabelFor" />
 
             <EditText
@@ -171,7 +171,7 @@
                 android:maxLength="3"
                 android:selectAllOnFocus="false"
                 android:textColor="@color/grey_20"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 tools:ignore="LabelFor" />
 
             <EditText
@@ -188,7 +188,7 @@
                 android:maxLength="10"
                 android:selectAllOnFocus="false"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 tools:ignore="LabelFor" />
 
             <EditText
@@ -207,7 +207,7 @@
                 android:maxLength="4"
                 android:selectAllOnFocus="false"
                 android:textColor="@color/grey_20"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 tools:ignore="LabelFor" />
 
             <EditText
@@ -227,7 +227,7 @@
                 android:maxLength="3"
                 android:selectAllOnFocus="false"
                 android:textColor="@color/grey_20"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 tools:ignore="LabelFor" />
 
             <EditText
@@ -244,7 +244,7 @@
                 android:maxLength="10"
                 android:selectAllOnFocus="false"
                 android:textColor="@color/purple_500"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 tools:ignore="LabelFor" />
 
             <EditText
@@ -263,7 +263,7 @@
                 android:maxLength="4"
                 android:selectAllOnFocus="false"
                 android:textColor="@color/grey_20"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 tools:ignore="LabelFor" />
 
             <EditText
@@ -283,7 +283,7 @@
                 android:maxLength="3"
                 android:selectAllOnFocus="false"
                 android:textColor="@color/grey_20"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 tools:ignore="LabelFor" />
 
 

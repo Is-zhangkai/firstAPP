@@ -6,14 +6,14 @@
     android:orientation="vertical">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="40dp"
         android:orientation="horizontal"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp">
         <Button
             android:id="@+id/result_buttonBack"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
 
             android:background="@drawable/back"
             android:contentDescription="@string/todo" />
@@ -23,7 +23,7 @@
             android:gravity="center_horizontal|center_vertical"
             android:text="@string/reporter_tital"
             android:textColor="@color/grey_30"
-            android:textSize="32sp" />
+            android:textSize="22sp" />
 
     </RelativeLayout>
     <ScrollView
@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:text="@string/tips"
             android:textColor="@color/purple_200"
-            android:textSize="23sp"
+            android:textSize="21sp"
             android:textStyle="bold"
             android:gravity="left"
             tools:ignore="RtlHardcoded"
