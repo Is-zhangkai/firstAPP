@@ -23,7 +23,7 @@
             android:gravity="center_horizontal|center_vertical"
             android:text="@string/result_tital"
             android:textColor="@color/grey_30"
-            android:textSize="32sp" />
+            android:textSize="18dp" />
         <Button
             android:id="@+id/assess_buttonExplain"
             android:layout_width="48dp"
@@ -138,6 +138,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:layout_marginStart="12dp"
                         android:orientation="vertical">
                         <TextView
                             android:layout_width="match_parent"
@@ -154,6 +155,7 @@
                             android:textStyle="italic|bold"
                             android:textSize="24sp"
                             android:textColor="@color/purple_500"
+                            android:layout_marginTop="12dp"
                             android:gravity="center"/>
                     </LinearLayout>
                     <LinearLayout
@@ -169,6 +171,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:layout_marginEnd="12dp"
                         android:orientation="vertical">
                         <TextView
                             android:layout_width="match_parent"
@@ -184,6 +187,7 @@
                             android:text=""
                             android:textStyle="italic|bold"
                             android:textSize="32sp"
+                            android:layout_marginTop="12dp"
                             android:textColor="@color/purple_500"
                             android:gravity="center"/>
                     </LinearLayout>
@@ -202,7 +206,8 @@
                     android:orientation="horizontal"
                     android:layout_marginStart="6dp"
                     android:layout_marginEnd="6dp"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:layout_marginTop="12dp">
                     <TextView
                         android:id="@+id/assess_TextSubject1"
                         android:layout_width="wrap_content"
