@@ -11,23 +11,23 @@
         android:background="@drawable/box_top">
         <Button
             android:id="@+id/assess_buttonBack"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
             android:background="@drawable/back"
             android:contentDescription="@string/todo"
             android:layout_marginStart="20dp"/>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal|center_vertical"
             android:text="@string/result_tital"
             android:textColor="@color/grey_30"
-            android:textSize="18dp" />
+            android:textSize="18sp" />
         <Button
             android:id="@+id/assess_buttonExplain"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
             android:background="@drawable/explain"
             android:contentDescription="@string/todo"
             android:layout_marginEnd="20dp"/>
@@ -144,7 +144,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/txt_three"
-                            android:textSize="24sp"
+                            android:textSize="18sp"
                             android:textColor="@color/grey_30"
                             android:gravity="center"/>
                         <TextView
@@ -177,7 +177,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/txt_four"
-                            android:textSize="24sp"
+                            android:textSize="18sp"
                             android:textColor="@color/grey_30"
                             android:gravity="center"/>
                         <TextView
@@ -212,7 +212,7 @@
                         android:id="@+id/assess_TextSubject1"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:textSize="22sp"
+                        android:textSize="20sp"
                         android:text=""
                         android:textColor="@color/grey_30"
                         android:layout_marginStart="6dp"
@@ -226,7 +226,7 @@
                         android:text=""
                         android:textStyle="italic"
                         android:textColor="@color/purple_500"
-                        android:textSize="28sp"
+                        android:textSize="24sp"
                         android:layout_weight="1"
                         android:gravity="right"
                         android:layout_marginLeft="6dp"
@@ -244,7 +244,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="@string/txt_five"
-                        android:textSize="24sp"
+                        android:textSize="20sp"
                         android:textColor="@color/grey_20"
                         android:layout_marginStart="6dp" />
                     <TextView
@@ -261,7 +261,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="@string/txt_one"
-                        android:textSize="24sp"
+                        android:textSize="20sp"
                         android:textColor="@color/grey_20" />
                     <TextView
                         android:id="@+id/assess_textFraction1"
@@ -287,13 +287,14 @@
                     android:orientation="horizontal"
                     android:layout_marginStart="6dp"
                     android:layout_marginEnd="6dp"
+                    android:layout_marginTop="12dp"
                     android:layout_weight="1">
                     <TextView
                         android:id="@+id/assess_TextSubject2"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text=""
-                        android:textSize="22sp"
+                        android:textSize="20sp"
                         android:textColor="@color/grey_30"
                         android:layout_weight="1"
                         tools:ignore="NestedWeights"
@@ -306,7 +307,7 @@
                         android:text=""
                         android:textStyle="italic"
                         android:textColor="@color/purple_500"
-                        android:textSize="28sp"
+                        android:textSize="24sp"
                         android:layout_weight="1"
                         android:layout_marginLeft="6dp"
                         android:gravity="right"
@@ -324,7 +325,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="@string/txt_five"
-                        android:textSize="24sp"
+                        android:textSize="20sp"
                         android:textColor="@color/grey_20"
                         android:layout_marginStart="6dp" />
                     <TextView
@@ -341,7 +342,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="@string/txt_one"
-                        android:textSize="24sp"
+                        android:textSize="20sp"
                         android:textColor="@color/grey_20" />
                     <TextView
                         android:id="@+id/assess_textFraction2"
@@ -367,13 +368,14 @@
                     android:orientation="horizontal"
                     android:layout_marginStart="6dp"
                     android:layout_marginEnd="6dp"
+                    android:layout_marginTop="12dp"
                     android:layout_weight="1">
                     <TextView
                         android:id="@+id/assess_TextSubject3"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text=""
-                        android:textSize="22sp"
+                        android:textSize="20sp"
                         android:textColor="@color/grey_30"
                         android:layout_weight="1"
                         tools:ignore="NestedWeights"
@@ -386,7 +388,7 @@
                         android:text=""
                         android:textStyle="italic"
                         android:textColor="@color/purple_500"
-                        android:textSize="28sp"
+                        android:textSize="20sp"
                         android:layout_weight="1"
                         android:layout_marginLeft="6dp"
                         android:gravity="right"
@@ -404,7 +406,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="@string/txt_five"
-                        android:textSize="24sp"
+                        android:textSize="20sp"
                         android:textColor="@color/grey_20"
                         android:layout_marginStart="6dp" />
                     <TextView
@@ -447,13 +449,14 @@
                     android:orientation="horizontal"
                     android:layout_marginStart="6dp"
                     android:layout_marginEnd="6dp"
+                    android:layout_marginTop="12dp"
                     android:layout_weight="1">
                     <TextView
                         android:id="@+id/assess_TextSubject4"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text=""
-                        android:textSize="22sp"
+                        android:textSize="20sp"
                         android:textColor="@color/grey_30"
                         android:layout_weight="1"
                         tools:ignore="NestedWeights"
@@ -466,7 +469,7 @@
                         android:text=""
                         android:textStyle="italic"
                         android:textColor="@color/purple_500"
-                        android:textSize="28sp"
+                        android:textSize="24sp"
                         android:layout_weight="1"
                         android:layout_marginLeft="6dp"
                         android:gravity="right"
@@ -526,7 +529,7 @@
                     android:text="@string/enter_view_report"
                     android:textStyle="italic"
                     android:textColor="@color/white"
-                    android:textSize="24sp"
+                    android:textSize="20sp"
                     android:background="@drawable/button_one"
                     android:layout_centerHorizontal="true"/>
             </RelativeLayout>
