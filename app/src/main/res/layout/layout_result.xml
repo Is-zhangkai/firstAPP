@@ -57,15 +57,17 @@
     android:layout_marginBottom="40dp">
 
     <TextView
-            android:id="@+id/result_textTips0"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textColor="@color/grey_30"
-            android:textSize="21sp"
-            android:layout_marginTop="30dp"
-            android:gravity="left"
-            tools:ignore="RtlHardcoded" />
+        android:id="@+id/result_textTips0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/grey_30"
+        android:textSize="21sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:gravity="left"
+        tools:ignore="RtlHardcoded" />
     <TextView
         android:id="@+id/result_textTips1"
         android:layout_width="match_parent"
@@ -73,6 +75,8 @@
         android:text=""
         android:textColor="@color/grey_30"
         android:textSize="21sp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
         android:layout_marginTop="12dp"
         android:gravity="left"
         tools:ignore="RtlHardcoded" />
@@ -83,6 +87,8 @@
         android:text=""
         android:textColor="@color/grey_30"
         android:textSize="21sp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
         android:layout_marginTop="12dp"
         android:gravity="left"
         tools:ignore="RtlHardcoded" />
@@ -93,6 +99,8 @@
         android:text=""
         android:textColor="@color/grey_30"
         android:textSize="21sp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
         android:layout_marginTop="12dp"
         android:gravity="left"
         tools:ignore="RtlHardcoded" />
@@ -104,6 +112,8 @@
         android:textColor="@color/grey_30"
         android:textSize="21sp"
         android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
         android:layout_marginBottom="40dp"
         android:gravity="left"
         tools:ignore="RtlHardcoded" />
